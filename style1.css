@@ -1,0 +1,76 @@
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #111;
+            color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .back-button {
+            background-color: #00ffea;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background-color: #00cccc;
+        }
+
+        h1 {
+            color: #00ffea;
+        }
+
+        h2 {
+            color: #bbbbbb;
+            margin-bottom: 40px;
+        }
+
+        .games {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .game {
+            background-color: #1e1e1e;
+            padding: 15px;
+            border-radius: 10px;
+            width: 220px;
+            box-shadow: 0 0 10px #00ffea33;
+        }
+
+        .game img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .game p {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #00ffea;
+        }
+
+        .fact {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-left: 5px solid #00ffea;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
